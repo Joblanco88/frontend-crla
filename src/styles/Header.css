@@ -1,40 +1,64 @@
 .header-main {
-  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+  background-position: 0%;
+  background-size: 100% 800px;
+  background-repeat: no-repeat;
+  background-image: url(../assets/images/sala-vinho.jpeg);
+  /* border: 1px solid white; */
   display: flex;
   flex-direction: column;
   height: 35vh;
   width: 100%;
 }
 
+/* Div com os textos no topo */
 #firstsegment {
   align-items: center;
   text-align: center;
-  height: 50%;
+  color: white;
+  height: 35%;
   width: 100%;
 }
 
-#firstsegtext {
+/* Textos do topo */
+/* #firstsegtext {
   
-}
+} */
 
+/* h2 com o name */
 .header-name {
   margin-bottom: 0px;
 }
 
-.header-description {
+/* h3 com a profissao */
+.header-work {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
+/* Div com a imagem e descricao */
 #secondsegment {
+  align-items: center;
   display: flex;
-  justify-content: space-around;
-  height: 50%;
+  height: 65%;
   width: 100%;
 }
 
+/* Foto de perfil */
 .header-logo {
-  margin: 0px 20px 5px;
+  margin: 0px 20px 5px 100px;
   border-radius: 45%;
-  width: auto;
+  width: 15%;
+}
+
+.header-description {
+  color: white;
+  margin-left: 100px;
+  width: 50%;
+}
+
+.header-img-description {
+  border-radius: 5%;
+  width: 45%;
 }
