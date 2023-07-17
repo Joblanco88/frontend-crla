@@ -1,0 +1,40 @@
+.header-main {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 35vh;
+  width: 100%;
+}
+
+#firstsegment {
+  align-items: center;
+  text-align: center;
+  height: 50%;
+  width: 100%;
+}
+
+#firstsegtext {
+  
+}
+
+.header-name {
+  margin-bottom: 0px;
+}
+
+.header-description {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#secondsegment {
+  display: flex;
+  justify-content: space-around;
+  height: 50%;
+  width: 100%;
+}
+
+.header-logo {
+  margin: 0px 20px 5px;
+  border-radius: 45%;
+  width: auto;
+}
