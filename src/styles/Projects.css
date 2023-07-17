@@ -1,0 +1,15 @@
+.projects-main {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 20px;
+  height: 25vh;
+  overflow-x: hidden;
+  width: 80%;
+}
+
+#projectsimages {
+  border: 1px solid white;
+  border-radius: 5%;
+  margin: 5px;
+  width: 20%;
+}

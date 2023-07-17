@@ -1,0 +1,8 @@
+.contact-main {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  margin-top: 15px;
+  font-size: large;
+  width: 80%;
+}

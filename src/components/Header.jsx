@@ -12,7 +12,7 @@ function Header() {
       </div>
       <div id='secondsegment'>
         <img className='header-logo' src={ perfil } />
-        <span className='header-description'>{ descText }</span>
+        <h3 className='header-description'>{ descText }</h3>
       </div>
     </div>
   );

@@ -1,0 +1,11 @@
+.description-main {
+  /* border: 1px solid white; */
+  color: white;
+  margin-top: 10px;
+  width: 80%;
+}
+
+.description-main > h3 {
+  margin-bottom: 4px;
+  margin-top: 1px;
+}
